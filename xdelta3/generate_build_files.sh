@@ -2,7 +2,7 @@
 
 aclocal &&
     autoreconf --install &&
-    libtoolize &&
+    glibtoolize &&
     autoconf &&
     automake --add-missing &&
     automake
